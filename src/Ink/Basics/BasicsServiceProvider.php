@@ -40,6 +40,7 @@ class BasicsServiceProvider extends ServiceProvider {
 			$loader->alias('InkController', 'Ink\Basics\Facades\InkController');
 			$loader->alias('InkModel', 'Ink\Basics\Facades\InkModel');
 			$loader->alias('InkValidator', 'Ink\Basics\Facades\InkValidator');
+			$loader->alias('InkPresenter', 'Ink\Basics\Facades\InkPresenter');
 		});
 	}
 
