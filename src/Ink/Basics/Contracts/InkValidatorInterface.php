@@ -1,25 +1,6 @@
 <?php namespace Ink\Basics\Contracts;
 
 interface InkValidatorInterface {
-	
-	/**
-	 * Validation values
-	 *
-	 * @var array
-	 */
-	protected $values = array();
-	
-	/**
-	 * Validation rules
-	 *
-	 * @var array
-	 */
-	protected $rules = array();
-	
-	/**
-	 * Validation errors
-	 */
-	protected $errors;
 
 	/**
 	 * Construct new validator
