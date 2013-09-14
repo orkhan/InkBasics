@@ -2,4 +2,4 @@
 
 use McCool\LaravelAutoPresenter\BasePresenter;
 
-class InkPresenter extends BasePresenter {}
+abstract class InkPresenter extends BasePresenter {}

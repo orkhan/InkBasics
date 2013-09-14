@@ -1,7 +1,6 @@
 <?php namespace Ink\Basics;
 
 use Illuminate\Support\ServiceProvider;
-use Config;
 
 class BasicsServiceProvider extends ServiceProvider {
 
@@ -27,22 +26,7 @@ class BasicsServiceProvider extends ServiceProvider {
 	 *
 	 * @return void
 	 */
-	public function register()
-	{
-		// register aliases
-		$this->registerAliases();
-	}
-	
-	private function registerAliases()
-	{
-		$this->app->booting(function() {
-			$loader = \Illuminate\Foundation\AliasLoader::getInstance();
-			$loader->alias('InkController', 'Ink\Basics\Facades\InkController');
-			$loader->alias('InkModel', 'Ink\Basics\Facades\InkModel');
-			$loader->alias('InkValidator', 'Ink\Basics\Facades\InkValidator');
-			$loader->alias('InkPresenter', 'Ink\Basics\Facades\InkPresenter');
-		});
-	}
+	public function register() {}
 
 	/**
 	 * Get the services provided by the provider.

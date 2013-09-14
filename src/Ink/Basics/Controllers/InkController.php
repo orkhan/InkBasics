@@ -2,4 +2,4 @@
 
 use BaseController;
 
-class InkController extends BaseController {}
+abstract class InkController extends BaseController {}
