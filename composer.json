@@ -10,7 +10,8 @@
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "4.0.x",
-        "mccool/laravel-auto-presenter": "*"
+        "mccool/laravel-auto-presenter": "*",
+        "edvinaskrucas/notification": "1.*"
     },
     "autoload": {
         "psr-0": {
