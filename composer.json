@@ -12,9 +12,9 @@
         "illuminate/support": "4.0.x",
         "mccool/laravel-auto-presenter": "*",
         "edvinaskrucas/notification": "1.*",
-		"ink/ink-str",
-		"ink/ink-sluggable",
-		"ink/ink-translatable"
+        "ink/ink-str": "dev-master",
+        "ink/ink-sluggable": "dev-master",
+		"ink/ink-translatable": "dev-master"
     },
     "autoload": {
         "psr-0": {
